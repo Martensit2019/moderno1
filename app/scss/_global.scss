@@ -5,7 +5,7 @@ html {
 html,
 body {
     height: 100%;
-    
+
 }
 
 *,
@@ -33,6 +33,8 @@ body {
     line-height: 24px;
     color: $text;
     overflow-x: hidden;
+    //width: 100vh;
+
 }
 
 .wrapper {
@@ -66,7 +68,8 @@ body {
         padding: 0 15px;
     }
 }
-.page-content{
+
+.page-content {
     background-color: $gray;
 }
 
@@ -87,14 +90,18 @@ body {
 .breadcrumbs {
     &__inner {
         padding: 45px 0 40px;
+        overflow: hidden;
+        max-width: 1200px;
     }
 
     &__list {
         li {
             display: inline-block;
-            position: relative;         
+            position: relative;
+
             &+li {
                 padding-left: 24px;
+
                 &::before {
                     content: '-';
                     position: absolute;
@@ -102,22 +109,27 @@ body {
                     left: 8px;
                 }
             }
-            &:last-child{
+
+            &:last-child {
+
                 a,
-                span{
+                span {
                     color: $bg;
                 }
             }
         }
-        a{
+
+        a {
             color: #b0bec5;
         }
     }
 }
-.angle-right{
+
+.angle-right {
     position: relative;
     padding-left: 15px;
-    &::before{
+
+    &::before {
         font-family: 'icomoon';
         content: "\f105";
         position: absolute;
@@ -125,4 +137,8 @@ body {
         color: $green;
         font-size: 14px;
     }
+}
+
+#modal{
+    display: none;
 }
