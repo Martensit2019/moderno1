@@ -1,0 +1,4 @@
+[1010/111924.203:ERROR:file_io.cc(134)] WriteFile: Идет закрытие канала. (0xE8)
+[1010/111925.264:ERROR:file_io.cc(134)] WriteFile: Идет закрытие канала. (0xE8)
+[1010/111925.293:ERROR:file_io.cc(134)] WriteFile: Идет закрытие канала. (0xE8)
+[1010/111925.432:ERROR:file_io.cc(134)] WriteFile: Идет закрытие канала. (0xE8)
